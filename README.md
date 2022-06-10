@@ -23,3 +23,7 @@ Contains simulation-based testing on RMM-01 pool performance as well as any RMM-
 - [Topological Data Analysis](https://github.com/primitivefinance/Topological-Data-Analysis)
 
 An application of Topological Data Analysis (TDA) on analyzing user activity and digesting RMM data
+
+- [Arbitrum Transaction Data Analysis](https://github.com/primitivefinance/Arbitrum-Transaction-Data-Analysis)
+
+This repository is for transaction data analysis on the the Arbitrum Network
