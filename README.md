@@ -14,6 +14,12 @@ Constant function market makers (CFMMs) have evolved from a small group of decen
 
 The current design space of derivatives in Decentralized Finance (DeFi) relies heav- ily on oracle systems. Replicating market makers (RMMs) provide a mechanism for converting specific payoff functions to an associated Constant Function Market Makers (CFMMs). We leverage RMMs to replicate the approximate payoff of a Black-Scholes covered call option. RMM-01 is the first implementation of an on-chain expiring option mechanism that relies on arbitrage rather than an external oracle for price. We pro- vide frameworks for derivative instruments and structured products achievable on-chain without relying on oracles. We construct long and binary options and briefly discuss perpetual covered call strategies commonly referred to as "theta vaults". Moreover, we introduce a procedure to eliminate liquidation risk in lending markets. The results suggest that CFMMs are essential for structured product design with minimized trust dependencies.
 
-## Simulations
+## Repository Directory
 
-Most of this work will be python simulations for product performance and analysis. Each project will have its own directory with its affiliated simulations. We will also publish finished work for these projects in their directories.
+- [RMM01 Simulations](https://github.com/primitivefinance/RMM01-Simulations)
+
+Contains simulation-based testing on RMM-01 pool performance as well as any RMM-01 based structured products
+
+- [Topological Data Analysis](https://github.com/primitivefinance/Topological-Data-Analysis)
+
+An application of Topological Data Analysis (TDA) on analyzing user activity and digesting RMM data
